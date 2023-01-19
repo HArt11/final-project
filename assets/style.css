@@ -300,7 +300,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
-  border-radius: 25%; /*I've added*/
+  border-radius: 25%; /*I've added this */
 }
 
 table {

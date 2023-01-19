@@ -41,7 +41,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="/assets/images/dosette.jpg" alt="medication box" />
+                <img class="masthead-avatar mb-5" src="/assets/images/green cross.png" alt="green cross" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading mb-0">Arthur's Pharmacy & Aesthetics</h1>
                 <!-- Icon Divider-->
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
+        <!-- Health advice Section-->
         <section class="page-section bg-primary text-white mb-0" id="advice">
             <div class="container">
                 <!-- About Section Heading-->
@@ -162,6 +162,52 @@
                     <div class="divider-custom-icon"><i class="fa-solid fa-phone"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+
+                <!-- enquiry form-->
+      <div class="form-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+              <div class="form-container">
+                <div class="form-img"></div>
+                <form class="form-horizontal" action="messageresponse.html">
+                  <h3 class="title">Drop us a message</h3>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name" required aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name" required aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Home Postcode" required
+                      aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Telephone number" required aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option value="none" selected="">Select enquiry</option>
+                      <option value="aesthetics">Aesthetics</option>
+                      <option value="rx">Prescription queries</option>
+                      <option value="clinical-services">Clinical services</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message (type you message here)" rows="3"></textarea>
+                  </div>
+    
+                  <button type="submit" id="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+<!-- end of form -->
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
@@ -228,36 +274,40 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <h4 class="mb-4">For urgent medical attention please speak to your doctor</h4>
+
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">Find us at</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            123 Random Street,
+                            Seaham
                             <br />
-                            Clark, MO 65243
+                            County Durham
+                        </p>
+                    </div>
+
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4">Location</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73524.34644801884!2d-1.4240140250110245!3d54.839081996007295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e60518d57b477%3A0xedf5e3011d970cf5!2sSeaham!5e0!3m2!1sen!2suk!4v1674168791671!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                        <p class="lead mb-0">
+                         Come pay us a visit!
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
+                    <h4 class="mb-4">Follow Us</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="www.facebook.com" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="www.twitter.com" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="www.linkedin.com" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Helen Arthur 202</small></div>
+            <div class="container"><small>Copyright &copy; Helen Arthur 2023</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
