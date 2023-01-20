@@ -32,11 +32,7 @@ Responsiveness has been tested on https://ui.dev/amiresponsive, different mobile
     * [Existing Features](#Existing-Features)
     * [Navigation Bar](#navigation-bar)
     * [The Home Page](#the-home-page)
-    * [Image Gallery](#image-gallery)
-    * [Waiting list application page](#waiting-list-application-page)
     * [Website Footer](#website-footer)
-    * [Form Acknowledgement Page](#form-acknowledgement-page)
-    * [404 Error Page](#404-error-page)
     * [Future Features](#future-features)
   * [Design](#Design)
     * [Colour Scheme](#Colour-Scheme)
@@ -47,7 +43,6 @@ Responsiveness has been tested on https://ui.dev/amiresponsive, different mobile
 * [Test Strategy](#test-strategy)
     * [User Stories Testing](#user-stories-testing)
     * [Manual Testing](#manual-testing)
-    * [Accessibility Testing](#accessibilty-testing)
     * [Feedback from User Testing](#feedback-from-user-testing)
     * [Validator Testing](#validator-testing)
     * [Unfixed Bugs](#unfixed-bugs)
@@ -212,13 +207,6 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
     * I ran my code through this tool to ensure no errors were present and it was recommended to use to fix any errors with Ipad resolutions. 
 * [Favicon](https://favicon.io/)
     * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
-* [NVDA](https://www.nvaccess.org/)
-    * NVDA screen reader software used to test the accessibility of the website
-* [TinyJPGs](https://www.tinyjpg.com//)
-* Used to compress image files to improve performance.
-* Lighthouse
-    * Lighthouse extenstion used to evaluate preformance.
-
 
 <br>
 
@@ -266,7 +254,7 @@ The website contains no backend functionality therefore testing will concentrate
 
   ### Feedback from User Testing
 ***
-  The main piece of feedback from my user testing was in relation to the hamburger icon. Against UX design I have changed the icon to a plant rather than the traditional hamburger icon that people are familiar with. Some testers were not aware the plant represented a hamburger icon. To combat this, rather than changing the icon back to the traditional icon, I used the built in "beat" function that can be applied to font awesome icons. The icon now shows a "beating" animation which will draw the user to click the icon. Once the icon has been pressed, the icon stops beating, this was achieved using an "onclick" attribute on the icon which essentially removes the "fa-beat" from the span class once it has been opened. The beat will be re-applied if the user moves to another page or refreshes their current page, however the icon will have already achieved its intended purpose.
+  The main piece of feedback from my user testing was a clean, following design. 
   <br><br>
         
 ### Validator Testing 
@@ -291,9 +279,9 @@ Once the development process was well underway, the website was deployed to GitH
 * ### Code
 <br>
 The html and CSS code for the form was taken from the Bootstrap Freelancer template. I then customised areas with my own custom CSS to redesign it to fit in with my website design and layout. 
-Bootstrap was used for all other code and styled using my own custom CSS. The home page layout is based on the bootstrap template at https://getbootstrap.com/docs/4.0/examples/carousel/ and styled with custom CSS.
+Bootstrap was used for all other code and styled using my own custom CSS. https://startbootstrap.com/theme/freelancer 
 
-I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. 
+I referred to W3Schools, Stack Overflow and peers when I encountered issues, which were primarily to do with layout issues and media queries. 
 
 * ### Content
 <br>
