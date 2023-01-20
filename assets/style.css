@@ -11545,3 +11545,9 @@ body {
 .fa-capsules {
   margin-right: 10px;
 }
+
+#message-return {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 20px;
+}
