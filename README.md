@@ -226,49 +226,27 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 ***
 
  ### Testing
-  Testing for this website was done using the Microsoft Edge Browser and the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on an iPhone 10 using Safari and Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
+  Testing for this website was done using the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on an iPhone 10 using Safari and other mobile devices. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
   
-  In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below.
+  In addition to my own testing, I sent my website link to family and friends and asked for them to test the website out using the same methods listed below. With thanks to Graeme Arthur for peer review and testing.
 
 
 The website contains no backend functionality therefore testing will concentrate on:
 
-* Testing navigational links on each separate page, as well as the site logo which is designed to redirect to the home page
+* Testing navigational links open on an external page, as well as the site logo which is designed to redirect to the home page
 * Testing the responsiveness of the website, making sure the layout and navigational features remain user friendly with UX design maintained
 * Testing of the form to ensure it functions correctly and does not allow an incomplete entry.
-* Testing the form takes the user to the "thank you" page
-* Testing out the "404" page if somehow the user manually keys in the website wrong or finds a broken link
 * Testing the modals work correctly and display at all resolution breakpoints
-* Testing the YouTube and Google map API links work correctly
-* Testing the "growing list" link that should open up an external PDF file in a separate tab.
+* Testing of social media links.
+
 <br><br>
 
-### User Stories Testing
-
-***
-   1. As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
-   * Website visitor can navigate to the home page from any page in the website. This is either via the navigation menu, or the navbrand logo, as is standard on most websites.
-   2. As a user, I want to know a brief history and story about the allotment site, any committee/manager involvement of the allotment site and other useful information.
-   * Website visitor can browse the homepage which is broken up into sections. They are informed about the current allotment site, the committee team of the allotment, a site map of the allotment and other useful information about allotment ownership.
-   * There is further information provided in modals on the homepage, detailing equipment needed, an on site shop and external information about growing produce.
-   3. As a visitor, I want to view images of the allotment site and other related images such as vegetables grown on the site or the layout of other peoples allotments.
-   * The website visitor can visit the image gallery page to view images of allotments, fruit/vegetables and other peoples allotments.
-   4. As a visitor who is interested in owning an allotment, I wish to get on the waiting list for this allotment site.
-   * The website visitor can apply to join the waiting list using the waiting list page. The page requires the user to fill in mandatory fields and presents the user with an acknowledgement once complete.
-   5. As a user, I want to be able to contact the allotment site for further information without committing to the waiting list.
-   * A user can contact the allotment site from a link on the homepage. They can also contact the allotment site from the thank you page once they have signed up for the waiting list.
-   * A user can visit the allotment sites social media and contact the site via external means. These links are present in the footer bar on each page.
-   6. As a website visitor, I want to know what items are available for sale in the on-site allotment shop. 
-   * A visitor can click the allotment shop link on the home page and be presented with a current shop stock list and pricing.
-   7. As a user, I want to be able to access your social media accounts.
-   * A user can access the allotment site social media links via the footer in any of the pages that they find themselves on.
-<br><br>
+#
    ### Manual Testing
 ***
   * Navigation - Repeated steps on all pages.
-      * Click on logo to confirm that it navigates to landing page.
+       * Click on logo to confirm that it navigates to landing page.
        * Click on all navigation links to verify that they direct to the indicated page.
-        * Verify that the current page the user is on, is highlighted as active in the menu.
         * Verify that the navigation menu is responsive to screen size and switches the navigational links to the "hamburger" icon on appropriately sized screens.
         * Ensure the hamburger menu opens correctly and displays the navigational links
         <br><br>
@@ -276,32 +254,15 @@ The website contains no backend functionality therefore testing will concentrate
         * Verify that the google maps and youtube video load on all browsers and at all breakpoints. 
         * Verify that the images are correctly shown on all browsers and at all breakpoints.
         * Verify that the buttons present the user with the correct modals and external documents. Ensure that the modals display correctly on all screen sizes and can be closed easily by the user to return to the page behind.
-        * Verify that all social media links displayed in the footer work correctly and open in a new page/browser tab
-        <br><br>
-      * Image gallery
-        * Verify that all images load correctly
-        * Verify that images are displayed within the gridbox layout on all screen sizes and are fully responsive.
-        <br><br>
-      * Waiting List
-        * Verify that the form and image display correctly on larger screens
-        * Verify that the image disappears on smaller screens and the user is only presented with the form.
-        * Verify that the form works correctly - all required fields give a prompt if not correctly completed. Verify once form is completed and submitted that the user is taken to the acknowledgement page.
+        
         <br><br>
       * Thank you page
         * Verify that page displays correctly, acknowledging the users form input.
-        * Verify that the user can navigate back to the home page from the acknowledgement page.
+        * Verify that the user can navigate back to the home page using button.
         <br><br>
-      * 404 page
-        * Verify that the page displays correctly and that the user can navigate anywhere else on the site.
-        <br><br>
-      * Footer - Repeated steps on all pages.
+      * Footer 
         * Verify that the social media links open in a new tab.
         <br><br>
-
-   ### Accessibility testing
-***
-  In order to test for accessibility, I used the windows program NVDA. NVDA is a screen reader software which reads out the webpage for visually impaired users. It also reads out clickable items on the webpage, any links, image descriptors, forms and buttons. Using this software I visited the live version of the website and allowed the screen reader to run through the whole website. There were no issues with the website in terms of accessibility. From running the software I noticed the footer bar links did not read out as they are only represented by a font awesome icon. I then added aria-labels in for each link to ensure accessibiilty is maintained throughout the website. The screen reader also highlighted the main buttons on the homepage (equipment list, growing list and allotment shop stock list) did not have appropriate labels - these were added accordingly.
-<br><br>
 
   ### Feedback from User Testing
 ***
@@ -321,36 +282,22 @@ The website contains no backend functionality therefore testing will concentrate
 There are no unfixed bugs present within the website. 
 <br><br>
 
-### 404 Page Test
-***
-For the purposes of allowing the website reviewer to see the 404 page, the "email us" link on the home page purposely links to this. It would open up an email program to allow website users to email the allotment site otherwise.
-<br><br>
 ## Deployment
 ***
-Once the development process was well underway, the website was deployed to GitHub pages. In order to achieve this I: 
+Once the development process was well underway, the website was deployed to GitHub pages. 
 
-- Opened up the website repo in GitHub and opened the settings tab.
-- The master branch was selected in the drop down menu to ensure my website was linked to correctly.
-- Once this was selected the page is automatically deployed and the external website link is presented. 
-
-The live link can be found here - https://graea85.github.io/Sprouton-Allotments/index.html
 <br><br>
-## Credits
-***
 
 * ### Code
 <br>
-The html and CSS code for the form was taken from https://colorlib.com/wp/template/colorlib-regform-3/. I then used my own custom CSS to redesign it to fit in with my website design and layout. I changed the image to a gardening themed image, added further form boxes to be relevant to my website and increased the radius of the borders. The image from the form is removed on smaller screen sizes for better UX design principles.
+The html and CSS code for the form was taken from the Bootstrap Freelancer template. I then customised areas with my own custom CSS to redesign it to fit in with my website design and layout. 
 Bootstrap was used for all other code and styled using my own custom CSS. The home page layout is based on the bootstrap template at https://getbootstrap.com/docs/4.0/examples/carousel/ and styled with custom CSS.
-I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. I have put in several custom media queries to deal with display issues on the IPad mini and Ipad Air, specifically in portrait mode.
-<br><br>
+
+I referred to W3Schools and Stack Overflow when I encountered issues, which were primarily to do with layout issues and media queries. 
 
 * ### Content
 <br>
 The images used in the project were all sourced from pexels.com or google images, ensuring they were available for commercial use.
-The YouTube video on the homepage is property of The National Allotment Society.
 The Google Maps API was created using google maps.
-
-All information presented on the website was created by me unless specified. The external PDF file from the Growing List was produced by Wares of Knutsford, all copyright information is present on the PDF.
 
 All icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
