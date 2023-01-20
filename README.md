@@ -5,17 +5,20 @@ This website was created for the required Milestone Project One for the Code Ins
 The live website can be found [here](https://hart11.github.io/final-project/)
 
 I wanted to build a website for my own fictional pharmacy. The design is a simple and effective one page scrolling site with internal links to sections, with a contact form for users to get in touch with enquires. 
-Important to be aware that all pharmacies are registered with the General Pharmaceutical Council (GB) and require a registration logo with registration number. This has NOT been included. 
+Important to be aware that all pharmacies are registered with the General Pharmaceutical Council and require a registration logo with registration number. This has NOT been included. 
 
 <br><br>
 
 ## Arthur's Pharmacy Overview
 ***
-The site provides interactive modals demonstrating the services this fictional pharmacy can provide. Colours of images lure the user in. The site would allow a user to sign up to arrange prescription delivery, or wish to find out more information. This is done through a contact form.
+The site provides interactive modals demonstrating the services this fictional pharmacy can provide. Brightly coloured of images lure the user in. The site would allow a user to sign up to arrange prescription delivery, or wish to find out more information. This is done through a contact form.
+The target audience is the younger generation of pharmacy users, with links to a fictional presence on social media, by dipping into and expanding on the usual pharmacy role of prescriptions by offering aesthetic treatments such as fillers. 
 
 <br><br>
 
-![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png)
+Responsiveness has been tested on https://ui.dev/amiresponsive, different mobile devices and using the developer tools from Chrome. It did look when using the Chrome developer tools, that the header image did not fit to page. This doesn't appear to be the case on the actual devices. 
+
+![Am I Responsive image of how the landing page looks across different browser sizes](assets/images/responsive.png) 
 <br>
 
 ## Table of Contents
@@ -56,12 +59,12 @@ The site provides interactive modals demonstrating the services this fictional p
 
 ## Project Research 
 ***
-Having recently acquired my own allotment and researching the topic, I have presented the information in such a way that is ideal for beginners and less daunting compared to more "veteran" allotment websites. The knowledge presented is what I wish I had prior to having my own allotmment.
+As a pharmacist, I've found some of the larger pharmacy chains to have busy websites with adverts selling produtcs. The idea of this website was to strip this back to what healthcare services a pharmacy can provide. 
 <br><br>
 
  ### Research Analysis
   ***
-  There has been a massive increase of interest in allotment ownership, particularly through the pandemic. Waiting lists are a big thing for all allotment sites so encouraging people to sign up as early as possible will benefit them greatly as some waiting lists can be up to 10 years +
+Pharmacy services are changing, and targetting the younger users would prefer to visit a bright, fun and interactive site. Especially with a contact form on to find out more information.
 <br><br>
 
 ## User Experience Design
@@ -71,22 +74,20 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
 #### First Time Visitor Goals
 
- - As a First Time user, I want to easily understand the main purpose of the site and learn more about the allotment site and allotment ownership.
+- As a First Time user, I want to easily understand the main purpose of the site and learn more about this fictional pharmacy.
 - As a First Time user, I want to be able to navigate throughout the site pages to find relevant content.
 - As a First Time user, I want to view the website and content clearly on the device I am currently using and switch between devices and have the webpage be responsive.
-- As a First Time user, I want to find out about the allotment site, how to get an allotment and some beginner tips.
 
 ### Returning Visitor Goals
 
-- As a Returning user, I want to apply for an allotment, if I haven't already.
-- As a Returning user, I want to contact the allotment owners to ask any questions I might have
-- As a Returning user, I want to get a list of the equipment that I need and see what is available to buy in the allotment shop.
+- As a Returning user, I want to contact the pharmacy to arrange prescriptions or another service.
+- As a Returning user, I may want follow them on social media.
 
 ### Frequent Visitor Goals
 
-- As a Frequent user, I want to check to see if there are any upcoming changes to the allotment site.
-- As a Frequent user, I want to check what stock the allotment shop has or contact the allotment shop for them to order an item in for me.
-- As a Frequent user, I want to view the image gallery to see if my allotment is being showcased.
+- As a Frequent user, I want to send another message to the pharmacy.
+- As a Frequent user, I may want to arrange another service.
+
 <br><br>
 
  ## Features
@@ -97,17 +98,16 @@ Having recently acquired my own allotment and researching the topic, I have pres
 
  * ### Navigation Bar
 ***
-![Navbar](assets/images/navbar.png)
+![Navbar](assets/images/navbars.png)
 <br><br>
-![Navbarmobile](assets/images/navbarmobile.png) ![navbaropen](assets/images/navbaropen.png)
-<br><br>
-  * The navigation bar is present across all three pages of the Sprouton Allotment website. It is fully responsive and includes links to the home page, image gallery and the waiting list application page. The navigation bar is in a fixed position therefore always visible to the user when scrolling the page. This is effective UX design, preventing the user to have to scroll back to the top of the page manually, or rely on auto-scroll buttons placed on the website.
-  
-  * The navigation bar shrinks to a "hamburger" icon and presents the links in a drop-down menu when the website is viewed on smaller screens such as a mobile phone or smaller tablet. I have changed the default hamburger icon to a plant related font awesome icon, in-keeping with the page design. This may be against UX design as users are familiar with the default hamburger icon. This was confirmed in user testing, however to add interactivity to the website I decided to keep the icon and make it "beat" so users will be attracted to click it. The animation stops once the button is pressed.
 
-  * The current page is highlighted in green to notify the user of their current page and links change colour upon hover to notify the user the link is clickable.
-
-  * The background image of the navigation bar is responsive and changes to a different image on smaller screens - this is for aesthetic reasons. I have applied a filter to the background image which allows for the links to easily stand out against the background and give the navigation bar a more professional look.
+ * The navigation bar is present across the main page, and on the message response page. The message response page does not have the dropdown menu, but a user can return to the home page (index.html) by either clicking on the Arthur's Pharmacy logo, or the "Return to Homepage" underneath the thank you message. 
+  The nav bar is fully responsive, and a burger menu appears when device size is reduced.
+  There has been little styling added to the default navigation menu from the template. The colour choice provides a good contrast with the rest of the page. It does however now include a mortar and pestle Font Awesome icon, and uppercase was removed.
+  The options were kept simple and clear, with links to internal markers on the main page.
+  - Nav 1 shows the nav-bar of the standard bar as displayed on a desktop.
+  - Nav 2 show the bar drop down menu from the burger menu on smaller screens.
+  - Nav 3 shows the nav-bar as displayed on the message response page, which intentionally does not contain the burger menu drop down.
 <br><br>
 
 * ### The Home page
@@ -116,74 +116,63 @@ Having recently acquired my own allotment and researching the topic, I have pres
 ![Homepage](assets/images/homepage.png)
 
 
-  - The Home page is broken up into sections. The first section is "Our Allotment Story" giving the user some background and current information regarding the allotment site. It also includes an embedded google map to show the location of the Allotment Site. I have used font awesome icons relevant to each section (the story book icon to represent the background story of the allotment site).
-  The second section introduces the website visitor to the allotment committee - briefly explaining their role, names and contact information. I have included a photograph to allow existing site owners to recognise the committee members whenever they meet in person. This also gives new visitors to the site a prospective of the owners and the mutual ideals of the allotment site. 
-  Each section is succinct as to give the user enough information without information overload.
-  The third section of the website is about the allotment site itself. Giving the website user information on the number of allotments available, the sizes available and other important details about the site. This is accompanied by an image of the allotment site layout which gives new users their bearings and existing owners a handy map. 
-  The fourth section gives the user information on the benefits of owning an allotment. I have included a video produced by the National Allotment Society, showcasing the benefits. This is included as to persuade new users to sign up for an allotment and remind existing owners about the numerous benefits of allotment ownership.
+  - The website design is one single home page, broken up into sections and navigated using internal links.
+   The first section is "Our Services" giving the user bold and colourful images to lure users in. Clicking on the service generates a modal pop-up giving the user more information on that particular service. 
+   The icon and text have been added so when hoovered over, the user can see what the image relates to. The image within the modal is different to the outer image. For example, the image of a young woman with a map leads to a vaccination modal with an image of a vaccine. This may put some people off if they have a needle phobia for example!
+   
+  - The second section is used to highlight the health advice the pharmacy can provide. This could be expanded to include advice on certain conditions, but would be too large to add in at this point. Instead, a link to the external NHS 111 website has been provided.
   
-  - The next section is split into three parts - a getting started equipment guide, a growing guide and a stock list of the on-site allotment shop. I have presented the equipment list and allotment shop as modals that open upon clicking the corresponding button. The growing guide links to an external pdf provided by a well-established gardening company with permission to use. The modals have a close button to easily get back to the website behind and they can also be clicked away from if the user is on a desktop website. The headers of the modals are always visible to allow the user to quickly exit, rather than having to scroll back up the page.
+  - The third section is the contact form. Users can fill in this form to send the pharmacy a message. The enquiry section is a drop down menu to help the user direct the query to the correct channel.
+  Once the user has completed the form and submitted, a thank you message appears. 
 
   - The Home page is fully responsive.
 <br><br>
 
-* ### Image Gallery
+* ### Message Response Page
 ***
-![gallery](assets/images/gallery.png)
+![response](assets/images/thankyou.png)
 
 
-  - The image gallery page includes photographs of the allotment site, produce grown on the allotment and other relevant photos designed to visually explain the allotment site and encourage people to join the waiting list. 
-  - The images are presented in a visually appealing grid box which is fully responsive (webpage is scrollable).
+  - The message response page is a short, simple and bold design added in to the website. It is the second of two pages. I decided again including more on this page.
+  - The navigation bar and burger menu was not included on this page, but replaced with a return to home page button at the end of the message, customised to be of similar style to the previous page.
+  - This page is also responsive.
+  
    <br><br>
 
-* ### Waiting list application page
-***
-![apply](assets/images/apply.png)
-
-
-  - This page of the site allows the site visitor to apply to join the waiting list for Sprouton allotments. It includes a relevant image (soil in a heart shape being held) with a form to gather the prospective owners information. The form is fully responsive. For design purposes, the image disappears on smaller screens so the form is the main focus for the user. The form makes use of the "required" attribute to ensure all required information is inputted by the user. Once complete the user can click the submit button which will take the user to a "thank you" page. The thank you page is included to provide feedback to the user that their request has been acknowledged. The thank you page opens in a new browser tab to prevent the user losing their place on the main website - it also includes links to return to the homepage or further information on contacting the allotment site owners.
-  <br><br>
 * ### Website Footer
 ***
 ![footer](assets/images/footer.png)
 
- - The footer present on each page of the website includes links to Sprouton Allotments social media pages. Each link will open in a new tab to allow the user to easily switch between the two and not lose their original position on the Sprouton Allotments website.
- I decided to keep the footer simple with just the social media links present - colour is in-keeping with the website colour scheme.
- - The links are facebook, instagram, twitter and YouTube. Copyright information is also displayed.
+ - The footer present on the home page holds links to its social media pages. Each link will open in a new tab to allow the user to easily switch between the two and not lose their original position on website. Footer uses Font Awesome icons.
+ - The footer also contains a location map which the user can interact with, a fictional adress, and a message to contact a doctor is they have an urgent medical query.
+ 
+ - The links are Facebook, Twitter and LinkedIn. Copyright information is also displayed.
 <br><br>
 
-* ### Form Acknowledgement Page
-***
-![thanks](assets/images/thanks.png)
-
- - The form acknowledge page appears once a user has completed the form with all required fields containing the correct information. The page is a simple acknowledgement to the user with links to contact the allotment site or return to the homepage.
-<br><br>
-
-* ### 404 Error Page
-***
- ![404](assets/images/404.png)
-<br><br>
 
 * ### Future Features
 ***
-  * A members only section, allowing users to arrange seed-swaps, equipment loans etc.
-  * Allotment shop - allowing users to buy online and collect their order when they are next on site, or have them delivered to their allotment.
+  * An aesthetics section to include price list and how to arrange a consultation
+  * As part of expanding the aesthetics side of the page, a responsive image gallery of previous cilents would be of benefit to the user.
+
 <br><br>
 
 ## Design
 ***
    * ### Colour Scheme
-      I wanted a colour scheme based around gardening colours - namely plant-greens and earthy browns. 
+      I wanted a colour scheme based around pharmacy and clinical colours - namely green, greys and white, to portray clean, crisp and bold styling. Fortunately the ideal green was already in the Bootstrap CSS from the Freelancer template. I did change the colours on the nav-bars, but reverted back to the default as the grey was a good unisex colour.
   * ### Favicon 
-      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted something simple and recognisable, related to gardening. I used font awesome for the icon and styled it - using favicon to produce the file.
+      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted a mortar and pestle - a renowned image associated with pharmacy. I used the Font Awesome icon and styled it - using favicon to produce the file.
   * ### Typography
-      I wanted a cursive font for the website name/logo and subsequent headers through the page. I wanted a simple yet professional looking font for the paragraphs and other writings.
+      I used the font within the template as I found this clean, fun and bold. I wanted a simple yet professional looking font, so avoided cursive or handwritting styles.
   * ### Imagery
-      All imagery was sourced from pexels.com or google images, ensuring they had appropriate commercial licenses.
+      All imagery was sourced from pexels.com and had appropriate commercial licenses.
 
-      I opted for images to fit with the website purpose. I wanted images that showcased gardens, allotments, vegetables and images in-keeping with the website colour scheme.
+      I opted for images for links as opposed to an image gallery. Images were chosen that had bold colours and to act as click-bait.
   * ### Layout
-      I decided on a multi-page layout rather than one single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. The image gallery is designed to showcase the allotments from the allotment site, as well as produce grown on site and other images from around the allotments. All images are aesthetically pleasing and fit with the scope of the website.
+      I eventually decided on a single flowing page. The bulk of the website information is presented on the homepage, which is neatly displayed using a bootstrap template which I have customised with my own CSS. 
+      Initially I had designed a multiple paged website, but this kept on expanding beyond the scope of this project, so opted for a single scrolling page more suited to mobile users as the website is intending to target the younger user.
+
 <br><br>
 
 ## Wireframes
@@ -204,17 +193,13 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 * CSS
 	* This project uses custom written CSS to style the html.
 * [Bootstrap](https://getbootstrap.com/)
-	* The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
+	* The layout of the website was created from a Bootstrap template called Freelancer. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
 * [Font Awesome](https://fontawesome.com/)
-	* Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section of the homepage uses a font awesome icon relevant to each piece of content. The icons for the bottom section of the home page each use a font awesome icon. The footer present on each page also uses font awesome icons for each of the social media links. 
-* [Google Fonts](https://fonts.google.com/)
-	* Google fonts are used throughout the website and are linked to in the page head. The fonts used are  *Lobster* and *IBM Plex Sans.* 
+	* Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section includes a font awesome icon relevant to each piece of content. The footer present on each page also uses font awesome icons for each of the social media links. 
 * [GitHub](https://github.com/)
 	* GitHub was the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
 * [Gitpod](https://git-scm.com/)
 	* Git was used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
-* [TinyJPG](https://tinyjpg.com/)
-	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwidth. Used on all images in the image gallery.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
 * [balsamiq Wireframes](https://balsamiq.com/wireframes/)
@@ -225,10 +210,13 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
     * I ran my code through this tool to ensure no errors were present and it was recommended to use to fix any errors with Ipad resolutions. 
 * [Favicon](https://favicon.io/)
     * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
-* [Techsini](http://techsini.com/multi-mockup/index.php)
-    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
 * [NVDA](https://www.nvaccess.org/)
     * NVDA screen reader software used to test the accessibility of the website
+* [TinyJPGs](https://www.tinyjpg.com//)
+* Used to compress image files to improve performance.
+* Lighthouse
+    * Lighthouse extenstion used to evaluate preformance.
+
 
 <br>
 
