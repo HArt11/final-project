@@ -11509,7 +11509,7 @@ html {
   background-color: #1a252f;
 }
 
-/**helens custom css **/
+/**custom css **/
 
 body {
   background-color: #D3D3D3; 
@@ -11525,6 +11525,7 @@ body {
 
 .fa-stethoscope {
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .fa-weight-scale {
@@ -11538,6 +11539,7 @@ body {
 
 .fa-eye {
   margin-right: 10px;
+  text-align: center;
 }
 
 .fa-capsules {
