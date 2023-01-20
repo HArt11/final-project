@@ -289,3 +289,5 @@ The images used in the project were all sourced from pexels.com or google images
 The Google Maps API was created using google maps.
 
 All icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
+
+Readme based on and adatped from https://github.com/GraeA85/Sprouton-Allotments with permission.
