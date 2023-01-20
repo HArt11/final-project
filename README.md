@@ -179,10 +179,12 @@ Pharmacy services are changing, and targetting the younger users would prefer to
 ***
 Using Balsamiq I created wireframes for both a desktop browser and mobile phone browser. Please click links below:
 
-- [Desktop Home Page Wireframe](assets/Wireframes/Homepage.pdf)
-- [Desktop Image Gallery Wireframe](assets/Wireframes/Gallery.pdf)
-- [Desktop Waiting List Wireframe](assets/Wireframes/Apply.pdf)
-- [Mobile device Wireframe](assets/Wireframes/mobile.pdf)
+- [Desktop Home Page Wireframe](assets/wireframes/Homepage.pdf)
+- [Desktop Aesthetics Wireframe](assets/wireframes/aesthetics.pdf)
+- [Desktop Contact us Wireframe](assets/wireframes/contact.pdf)
+- [Desktop Services Wireframe](assets/wireframes/services.pdf)
+- [Mobile device Wireframe](assets/wireframes/mobile.pdf)
+
 
 <br>
 
@@ -203,7 +205,7 @@ Using Balsamiq I created wireframes for both a desktop browser and mobile phone 
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
 * [balsamiq Wireframes](https://balsamiq.com/wireframes/)
-	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design. Although this changed during the design.
 * [MS PAINT](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
     * Used to edit some of the images present on the website, mainly those used in the navigation bar.
 * [Post CSS](https://postcss.org/)
